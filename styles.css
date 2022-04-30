@@ -129,6 +129,11 @@ hr{
     color: white;
 }
 
+.footer-header{
+    font-size: large;
+    font-weight: bold;
+}
+
 .social-links{
     padding-inline-start: 0px;
 }
