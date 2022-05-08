@@ -37,6 +37,7 @@ hr{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    margin: 1rem auto;
 }
 
 .link-secondary{
@@ -49,11 +50,32 @@ hr{
 
 .list-non-bullet{
     list-style: none;
+    padding-left: 0px;
 }
 
 .list-item-inline{
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.article-list{
+    padding: 2rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.article-list p{
+    padding-bottom: 1rem;
+}
+
+.project-list{
+    padding: 2rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.project-list p{
+    padding-bottom: 2rem;
 }
 
 /**navigation**/
@@ -86,7 +108,7 @@ hr{
 
 .hero{
     padding: 2rem;
-    
+    padding-top: 5rem;
 }
 
 .hero .hero-image{
